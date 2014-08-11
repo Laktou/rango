@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+{% load static %}
+<html>
+	<head>
+		<title>About Page</title>
+	</head>
+
+	<body>
+		<h1>Rango says...</h1>
+		Here is the about page. <br />
+		He's <strong>{{ lizard }}!</strong><br />
+		<a href='/rango/'>Main Page</a><br />
+		<img src="{% static 'rango2.gif' %}" alt='Another picture of Rango' />
+	</body>
+</html>
